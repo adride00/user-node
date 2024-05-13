@@ -1,0 +1,23 @@
+{
+	"name": "app-test",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rimraf ./dist && tsc",
+		"start": "npm run build && node dist/app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"@types/node": "^20.12.11",
+		"nodemon": "^3.1.0",
+		"rimraf": "^5.0.7",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	}
+}
